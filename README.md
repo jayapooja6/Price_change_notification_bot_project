@@ -13,6 +13,18 @@ Notification and voice message
 E-mail Automation (Purchase-link)
 
 
+# Task Split-up
+# Jayapooja R
+Data-Scrapping the product on the Cart/Wish-List 
+Excel Automation
+# Krishna Divya P
+Monitoring the price change 
+Comparing the price with expected price(approx.) 
+# Janani R C
+Notification and voice message 
+E-mail Automation (Purchase-link)
+
+
 # Advantages
 Automatically the bot monitors on the price change. 
 Sends a notification message along with a voice message to make the customer aware.
