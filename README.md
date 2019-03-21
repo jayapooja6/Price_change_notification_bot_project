@@ -15,14 +15,23 @@ E-mail Automation (Purchase-link)
 
 # Task Split-up
 # Jayapooja R
-Data-Scrapping the product on the Cart/Wish-List 
-Excel Automation
+# Data-Scrapping the product on the Cart/Wish-List 
+In this module, the products that the customer adds into the cart are being scrapped. Here we use data scrapping tool available in the UiPath software. Once the product has been added to the cart the bot automatically scrape the available product in the cart. In this process we scrape the product name and price only for each and every product available in the cart.
+# Excel Automation
+In the Excel Automation, once the products and their respective prices are being scrapped, the data are fetched into the excel sheet. Excel automation is done by using the Excel Application Scope activity comprising of Write Range activity. The data are arranged as product name, link and price correspondingly. This enables us to monitor on the price change.
+
 # Krishna Divya P
-Monitoring the price change 
-Comparing the price with expected price(approx.) 
+# Monitoring the price change 
+In this section the Price Scanning is done by contrasting the product price on the day it has been added to the cart with the subsequent price changes made by the e-Commerce site further. This helps the bot to send notification, Voice Message followed by an Email Invitation further more. Similarly we create an Excel Sheet based on the expected price of the customer. This also helps the bot to make the comparison where the price may be assigned within the range approximately.	
+# Comparing the price with expected price(approx.) 
+The expected price of the customer is being fetched manually. Now the price of the product is compared with the generated template.
+Now the price monitoring on the basis of the expected price is done accordingly. Here there is a range of Rs.250 to Rs.500 addition with their expected price amount.
+
 # Janani R C
-Notification and voice message 
-E-mail Automation (Purchase-link)
+# Notification and voice message 
+In the Notification and Voice Message module, the customer receives with a notification via message box activity from the UiPath. Once the message notification is being sent, the customer also receives with a voice message from a text-to-speech activity. Here we also send the message for both price hike and price drop since the customer should be aware of the hike as well as drop to buy the products respectively. The two activities being involved are message box and text-to-speech.
+# E-mail Automation (Purchase-link)
+The E-mail automation is being generated in case when there is only the price drop/descend. This automation consists of the product purchase link in case of price drop which enables us to purchase the product. Here the mail is generated to the customer’s registered mail ID with the e-Commerce site. 
 
 
 # Advantages
