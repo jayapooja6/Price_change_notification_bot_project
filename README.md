@@ -8,7 +8,7 @@ the product link to purchase. In case of a price hike ,the voice message with a 
 Data-Scrapping the product on the Cart/Wish-List 
 Excel Automation
 Monitoring the price change 
-Comparing the price with expected price(approx.) 
+Comparing the price with the previous day price 
 Notification and voice message 
 E-mail Automation (Purchase-link)
 
@@ -23,9 +23,8 @@ In the Excel Automation, once the products and their respective prices are being
 # Krishna Divya P
 # Monitoring the price change 
 In this section the Price Scanning is done by contrasting the product price on the day it has been added to the cart with the subsequent price changes made by the e-Commerce site further. This helps the bot to send notification, Voice Message followed by an Email Invitation further more. Similarly we create an Excel Sheet based on the expected price of the customer. This also helps the bot to make the comparison where the price may be assigned within the range approximately.	
-# Comparing the price with expected price(approx.) 
-The expected price of the customer is being fetched manually. Now the price of the product is compared with the generated template.
-Now the price monitoring on the basis of the expected price is done accordingly. Here there is a range of Rs.250 to Rs.500 addition with their expected price amount.
+# Comparing the price with the previous day price 
+The price of the product will be compared with the previous day price. Here the price will be overwrited every day accordinlgy once we run the bot. Thus the changes in the price change will be fetched and notified accordingly.
 
 # Janani R C
 # Notification and voice message 
